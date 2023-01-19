@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    color:saddlebrown;
+    font:18px;
+}
+
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a{
+    color:saddlebrown;
+    text-decoration: none;
+}
+
+.header-nav-list{
+    display: flex;
+}
+
+.header-nav-listItem{
+    list-style-type:none;
+    margin: 1rem;
+    font-size: 14px;
+    
+}
+
+
+.container{
+    background-color:black;
+    margin: 2rem auto;
+    max-width: 70rem;
+    width:90;
+}
+
+.section-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px;
+}
+
+img{
+    height: 400px;
+    width: 95%;
+}
+
+.donutButton {
+    color: saddlebrown;
+    
+     }
+
+

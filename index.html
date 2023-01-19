@@ -5,9 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Donut Clicker</title>
+    <link rel="stylesheet" href="resources/css/style.css">
   </head>
   <body>
-    <div class="container"></div>
-    <script src="./index.js"></script>
+    <div class="container">
+      <header class="header">
+        <h1 id="header">Well Come To Fred Baker Baking Company</h1>
+        <nav class="nav-header">
+          <ul class="header-nav-list">
+              <li class="header-nav-listItem"><a href="#about-company" title="Fred the Baker is making of donuts using
+                  button clicks to create virtual donuts for the world to enjoy. "> AboutFredBaker</a></li>
+              <li class="header-nav-listItem"><a href="https://orteil.dashnet.org/cookieclicker/" target="_blank">Inspiration</a></li>
+              <li class="header-nav-listItem"><a href="about-me" title="my name is Nuhamin Tesfaye and i am the developer
+                of this donut maker game.Hopefully yo will enjoy while playing this game">AboutMe</a></li>
+              <li class="header-nav-listItem"><a class="contact-me-link" href="https://github.com/Nuhamin-Tesfaye">GITHub</a></li>
+              <li class="header-nav-listItem"><a class="contact-me-link" href="https://www.linkedin.com/in/nuhamin-tesfaye">Linkedin</a></li>
+          </ul>
+      </nav>
+  </header>
+    <div class="section-container">
+      <section>
+        <img src="resources\images\Donut-maker.jpg"></img>
+        <button  class= "donut-button donutButton">Make Donut</button>
+        <h3 class="donut-count" >Total Donut Count : 0 </h3>
+      </section>
+      <section>
+        <img src="resources\images\auto-click-donut-maker.jpg"></img>
+        <button  class="auto-clicker-button  donutButton" >Purchase Auto Clicker</button>
+        <h3 class="auto-clicker-count">Auto Clicker Count : 0 </h3>
+        <h3 class="auto-clicker-price">Auto Clicker price : 100 </h3>
+      </section>
+      <section>
+        <img src="resources\images\donut-multiplier2.jpg" alt="donut multiplier image"></img>
+        <button  class="donut-multiplier-button donutButton" >Purchase Donut Multiplier</button>
+        <h3 class="donut-multiplier-count">Donut Multiplier Count : 0 </h3>
+        <h3 class="multiplier-price">Donut Multiplier Price : 10 </h3>
+        <h3 class="donut-multiplier-value">Donut Multiplier Value : 1.2 </h3>
+      </section>
+      <button class="reset donutButton" >Restart Game</button>
+
+    </div>
+    </div>
+    <script type="module" src="./donut-maker-app.js"></script>
+
+    
   </body>
 </html>
